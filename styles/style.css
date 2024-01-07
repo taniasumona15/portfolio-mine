@@ -245,3 +245,55 @@ hr{
    margin: 60px 0; 
 }
 
+
+/* footer*/
+
+footer{
+    display: flex;
+gap: 100px;
+    background: #FFF8F3;
+    padding: 120px 160px;
+    margin-top: 80px;
+}
+
+
+
+.foot_col{
+width: 50%;
+}
+
+
+.footer_title{
+    color: #181818;
+ 
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_des{
+    color: #474747;
+ 
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+#distance{
+    margin-right: 15px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+display: block;
+border-radius: 5px;
+background:  #FFF;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+border: none;
+width: 100%;
+}
+
